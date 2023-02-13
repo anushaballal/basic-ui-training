@@ -1,0 +1,46 @@
+<!--Design thoughts:
+    controlling all styling including structuring and look and feel, via CSS, like font size, weight etc
+    The html contains bare structure only.
+    I have always preferred to do it this way.
+    The strong tag is specifically used for accessibility. On the subscription category and what it
+    includes
+ssfsf-->
+
+<form class="registration">
+    <h4>Fill the form below to register a new user</h4>
+    <fieldset>
+        <legend>Personal Info</legend>
+        <div>
+            <label>Full Name*</label>
+            <input type="text" placeholder="Enter your name" value="" required /><br><br>
+        </div>
+        <div>
+            <label>Email ID* (will be your login ID)</label>
+            <input type="email" placeholder="Enter your email" value="" required /><br><br>
+        </div>
+        <div>
+            <label>Password*</label>
+            <input type="password" placeholder="Enter your password" value="" required /><br><br>
+        </div>
+        <div>
+            <label>Confirm Password*</label>
+            <input type="password" placeholder="re-enter your password" value="" required /><br><br>
+        </div>
+        <div>
+            <label>Telephone*</label>
+            <input type="tel" placeholder="Enter your number" value="" /><br><br>
+        </div>
+        <fieldset>
+            <legend>How do you want to be contacted?</legend>
+            <input type="radio" id="email" name="connect"/>
+            <label for="email">Email</label>
+            <input type="radio" id="tel" name="connect"/>
+            <label for="tel">Telephone</label>
+        </fieldset>
+    </fieldset>
+    <div>
+        <br>
+        <input type="reset" />
+        <input type="submit" />
+    </div>
+</form>
