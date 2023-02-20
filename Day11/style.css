@@ -70,13 +70,22 @@ main > h4{
 
 .recentBooks{
     display: flex;
-    
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 
 }
 
 .recentBooks div{
     padding:10px;
     margin-bottom: 5px;
+}
+
+@media screen and (max-width:600px){
+    .authorInfo{
+        flex-direction: column;
+    }
+
+    .authorInfo > section{
+        margin: 10px 0 0 0;
+    }
 }
