@@ -1,0 +1,133 @@
+
+body{
+    /*use shorthand here*/
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3, h4{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.training-courses a{
+    font-weight: bold;
+    font-style: italic;
+    color:brown;
+}
+
+.query-form{
+    color:rgb(43, 42, 43);
+    font-size:12px;
+    width: 400px;
+    text-align: justify;
+    border: 1px solid rgb(69, 67, 67);
+    padding: 10px;
+    background-color:rgb(180, 239, 239);
+
+}
+
+.query-form > .form-buttons{
+    text-align: center;
+}
+
+.query-form > h4{
+    font-size: 16px;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.query-form > legend{
+    color: rgb(91, 6, 6);
+    font-size:14px;
+    font-style: italic;
+}
+
+.form-button{
+    background-color: rgb(45, 115, 115);
+    border-radius: 10px;
+    color:white;
+    width: 100px;
+    padding:5px;
+    text-align: center;
+    border-style: hidden;
+}
+
+header, footer, header a{
+    background-color: rgb(45, 115, 115);
+    color:white;
+    padding: 5px;
+}
+
+.header{
+    display: flex;
+}
+
+.site-search{
+    width:inherit;
+}
+
+.intro > h3 ~ p{
+    font-style: italic;
+}
+
+a[href$=".pdf"]{
+    font-size: 12px;
+    font-weight: normal;
+    color: blue;
+}
+
+.intro > h3{
+    color: rgb(91, 6, 6);
+    text-decoration-line: none;
+}
+
+.training-courses > ol {
+    line-height: 20px;
+}
+
+.col-ctrl-2{
+    display: flex;
+}
+
+.col-ctrl-2 > div{
+    padding:20px;
+}
+
+.col-1{
+    width: 60%;
+}
+
+.adhoc-banner > aside{
+    border: 1px solid rgb(69, 67, 67);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color:rgb(45, 115, 115) ;
+    color: white;
+}
+
+aside > a {
+    color:white;
+}
+
+.query-area{
+    resize:vertical;
+}
+
+.form-button:hover{
+    cursor:pointer;
+}
+
+#submitMessage{
+    border: 2px solid white;
+    font-size: 15px;
+    text-align: center;
+    display:none;
+    margin-top: 10px;
+}
+
+
+
+
