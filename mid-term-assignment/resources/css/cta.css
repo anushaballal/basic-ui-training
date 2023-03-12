@@ -1,0 +1,77 @@
+:root{
+    --cta-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --background-color: #725494;
+    --button-color: #413054;
+    --font-color: white;
+    --box-shadow-default: 0 3px 9px rgba(0, 0, 0, 0.3);
+}
+
+a{
+    all:unset;
+}
+
+.cta--theme-1{
+    width:230px;
+    margin:10px;
+    padding: 15px;
+    border: 1px solid var(--background-color);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow-default);
+    font-family: var(--cta-font-family);
+    color:var(--font-color);
+    background-color: var(--background-color);
+    text-align: center;
+}
+
+.cta--theme-1 h3{
+    width: 230px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.cta--theme-1 p{
+    width: 180px;
+    font-size: 10px;
+    display: inline-block;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.cta--theme-1 button{
+    width:100px;
+    font-family: var(--cta-font-family);
+    font-size: 12px;
+    color: var(--font-color);
+    border: 1px solid var(--button-color);
+    box-shadow: var(--box-shadow-default);
+    border-radius: 10px;
+    padding:5px;
+    margin:10px;
+    background-color: var(--button-color);
+}
+
+@media screen and (min-width:992px){
+    .cta--theme-1{
+        width:600px;
+    }
+    .cta--theme-1 h3{
+        width: 600px;
+    }
+    .cta--theme-1 p{
+        width: 500px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width:768px) and ( max-width:991px){
+    .cta--theme-1{
+        width:400px;
+    }
+    .cta--theme-1 h3{
+        width: 400px;
+    }
+    .cta--theme-1 p{
+        width: 300px;
+        font-size: 10px;
+    }
+}
