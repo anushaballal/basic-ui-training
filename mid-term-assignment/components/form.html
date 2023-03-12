@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Form Component</title>
+        <link rel="stylesheet" href="..\resources\css\form.css" type="text/css" >
+        <link rel="stylesheet" href="..\resources\css\style.css" type="text/css" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <section class="form--theme-1">
+            <div class="form-heading">
+                <h4>Contact Us</h4>
+                <p>Please fill out the form for any queries</p>
+            </div>
+            <form>
+                <div class="form-field">
+                    <label for="fullName">Full Name*</label>
+                    <input type="text" id="fullName" placeholder="Enter your name" value="" required />
+                </div>
+                <div class="form-field">
+                    <label for="email">Email ID*</label>
+                    <input type="email" id="email" placeholder="Enter your email" value="" required />
+                </div>
+                <div class="form-field">
+                    <label for="query">Message*</label>
+                    <textarea id="query" class="query-area" rows="4" cols="45" placeholder="Enter your query" required></textarea>
+                </div>
+                <div class="form-button-div">
+                    <input class="form-button" type="submit" value="SUBMIT" />
+                </div>
+            </form>
+        </section>
+    </body>
+</html>

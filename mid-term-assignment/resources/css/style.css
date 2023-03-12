@@ -1,0 +1,11 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    padding: 20px;
+    background-color: rgb(244, 238, 238);
+    line-height: 1.5em;
+}
+
