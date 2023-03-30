@@ -1,0 +1,53 @@
+.cta-container--about{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.about-cta{
+  position: relative;
+  padding: 10px;
+  width:250px;
+}
+
+.about-cta picture img{
+  width: 100%;
+  height: 100%;
+}
+
+.about-cta div a{
+  all:unset;
+}
+
+.pos-fixed{
+  position: absolute;
+  top: 80%;
+  right: 36%;
+}
+
+@media screen and (min-width: 768px) {
+  .about-cta{
+    width:300px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about-cta{
+    width:400px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-cta{
+    width:500px;
+    padding:20px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .about-cta{
+    width:900px;
+    padding:30px;
+  }
+}
