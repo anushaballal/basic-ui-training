@@ -1,0 +1,136 @@
+footer {
+  margin-top: 10px;
+  background-color: #FBFBFB;
+  padding: 10px;
+}
+
+.footer-column {
+  font-size: 0.5em;
+  color: #1D1D1D;
+  width: 130px;
+}
+.footer-column ul {
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.footer-column li {
+  list-style: none;
+  text-transform: capitalize;
+  font-weight: 400;
+  line-height: 10px;
+}
+.footer-column li input {
+  border: 1px solid #FBFBFB;
+  border-bottom: 1px solid #1D1D1D;
+  background-color: #FBFBFB;
+  font-size: 0.7em;
+  display: inline-block;
+  line-height: 20px;
+  width: 100%;
+}
+
+.footer-links {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.footer-copyright {
+  font-size: 0.5em;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-copyright section {
+  margin: 5px 0 5px;
+}
+.footer-copyright section a {
+  all: unset;
+  margin-right: 5px;
+}
+.footer-copyright section p {
+  margin-bottom: 5px;
+}
+.footer-copyright .footer-icons {
+  text-align: end;
+  align-self: center;
+}
+.footer-copyright .footer-icons img {
+  width: 30px;
+  height: auto;
+}
+
+@media screen and (min-width: 728px) {
+  .footer-column {
+    width: 150px;
+  }
+  .footer-column li {
+    line-height: 15px;
+  }
+  .footer-copyright .footer-icons img {
+    width: 35px;
+    height: auto;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footer-column {
+    width: 180px;
+  }
+  .footer-column li {
+    line-height: 20px;
+  }
+  .footer-copyright {
+    padding: 20px;
+  }
+  .footer-copyright .footer-icons img {
+    width: 45px;
+    height: auto;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .footer-column {
+    width: 200px;
+  }
+  .footer-column li {
+    line-height: 25px;
+  }
+  .footer-copyright {
+    padding: 20px;
+  }
+  .footer-copyright .footer-icons img {
+    width: 60px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  footer{
+    padding-top:30px;
+  }
+  .footer-column {
+    width: 300px;
+    font-size: 0.6em;
+  }
+  .footer-column li {
+    line-height: 45px;
+  }
+  .footer-column li input {
+    line-height: 60px;
+  }
+  .footer-column ul {
+    line-height: 45px;
+  }
+  .footer-copyright {
+    padding: 30px;
+    font-size: 0.7em;
+  }
+  .footer-copyright .footer-icons img {
+    width: 90px;
+    height: auto;
+  }
+}

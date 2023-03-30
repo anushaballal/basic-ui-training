@@ -1,0 +1,55 @@
+.benefits {
+  width: 120px;
+  display: flex;
+  margin: 10px;
+}
+.benefits div {
+  margin-left: 10px;
+}
+.benefits img {
+  width: 20px;
+  height: fit-content;
+}
+.benefits h4 {
+  font-size: 0.5em;
+  font-weight: bolder;
+  margin: 0 0 8px 0;
+  text-transform: uppercase;
+}
+.benefits p {
+  font-size: 0.5em;
+}
+
+.shopping-benefits {
+  margin: 15px 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+@media screen and (min-width: 1024px) {
+  .benefits {
+    width: 200px;
+  }
+  .shopping-benefits {
+    margin: 40px 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .benefits {
+    width: 250px;
+  }
+  .shopping-benefits {
+    margin: 50px 50px;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .benefits {
+    width: 300px;
+    font-size: 1.2em;
+  }
+  .shopping-benefits {
+    margin: 50px 50px;
+  }
+}
